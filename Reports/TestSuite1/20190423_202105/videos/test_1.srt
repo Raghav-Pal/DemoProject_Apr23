@@ -1,0 +1,28 @@
+1
+00:00:00,341 --> 00:00:00,346
+1. openBrowser("")
+
+2
+00:00:07,663 --> 00:00:07,664
+5. navigateToUrl("https://katalon-demo-cura.herokuapp.com/")
+
+3
+00:00:08,183 --> 00:00:08,184
+9. click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment"))
+
+4
+00:00:08,757 --> 00:00:08,758
+13. setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_username"), "John Doe")
+
+5
+00:00:10,217 --> 00:00:10,231
+17. setEncryptedText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM")
+
+6
+00:00:10,927 --> 00:00:10,928
+21. click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Login"))
+
+7
+00:00:11,459 --> 00:00:11,463
+25. closeBrowser()
+

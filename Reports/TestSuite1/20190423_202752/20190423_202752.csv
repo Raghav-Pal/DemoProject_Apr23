@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite1,Chrome 73.0.3683.103,this is a demo test suite,,2019-04-23 20:27:54,2019-04-23 20:28:14,20.107s,FAILED
+,,,,,,,
+Test Cases/Test1,Chrome 73.0.3683.103,this is a sample test,,2019-04-23 20:27:55,2019-04-23 20:28:14,19.197s,FAILED
+"openBrowser("""")",Chrome 73.0.3683.103,,,2019-04-23 20:27:55,2019-04-23 20:27:59,3.732s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 73.0.3683.103,,,2019-04-23 20:27:59,2019-04-23 20:28:00,0.604s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/button_Login""), OPTIONAL)",Chrome 73.0.3683.103,,,2019-04-23 20:28:00,2019-04-23 20:28:06,6.047s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 73.0.3683.103,,,2019-04-23 20:28:06,2019-04-23 20:28:12,6.019s,FAILED

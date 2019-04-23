@@ -1,0 +1,16 @@
+1
+00:00:00,459 --> 00:00:00,464
+1. openBrowser("")
+
+2
+00:00:04,194 --> 00:00:04,195
+5. navigateToUrl("https://katalon-demo-cura.herokuapp.com/")
+
+3
+00:00:04,798 --> 00:00:04,806
+9. click(findTestObject("Page_CURA Healthcare Service/button_Login"), OPTIONAL)
+
+4
+00:00:10,842 --> 00:00:10,847
+13. setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_username"), "John Doe")
+
